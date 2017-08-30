@@ -1,9 +1,9 @@
-interface Yaqrcode {
-  (str: string, opt?: { size: number }): string;
+interface YaQrcodeStatic {
+    (str: string, opt?: { size: number }): string;
 }
 
 declare module "yaqrcode" {
-  export = Yaqrcode;
+    export = YaQrcodeStatic;
 }
 
-declare var yaqrcode: Yaqrcode;
+export declare var yaqrcode: YaQrcodeStatic;

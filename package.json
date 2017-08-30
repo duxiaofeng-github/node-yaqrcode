@@ -10,6 +10,7 @@
         "qrcode",
         "qr"
     ],
+    "main": "qrcode.js",
     "homepage": "http://github.com/zenozeng/node-yaqrcode",
     "repository": {
         "type": "git",

@@ -3,7 +3,6 @@ interface YaQrcodeStatic {
 }
 
 declare module "yaqrcode" {
-    export = YaQrcodeStatic;
+    export var yaqrcode: YaQrcodeStatic;
+    export default YaQrcodeStatic;
 }
-
-export declare var yaqrcode: YaQrcodeStatic;

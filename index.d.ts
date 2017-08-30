@@ -6,4 +6,4 @@ declare module "yaqrcode" {
   export = Yaqrcode;
 }
 
-declare const yaqrcode: Yaqrcode;
+declare var yaqrcode: Yaqrcode;

@@ -1615,5 +1615,5 @@ var gen = function(text, options) {
     return qr.createImgTag(cellsize, margin, size);
 };
 
-export const yaqrcode = gen;
+export var yaqrcode = gen;
 export default gen;
